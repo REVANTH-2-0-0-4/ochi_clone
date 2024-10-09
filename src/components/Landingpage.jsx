@@ -5,13 +5,15 @@ function Landingpage() {
   return (
     <div className='w-full h-screen bg-zinc-900 overflow-hidden'>
       <div className='textstructure mt-44 text-white'>
-        {["We create", "Eye Opening", "Presentations"].map((text, index) => (
-          <div key={index} className="masker">
-            <div className='w-fit flex items-center'> </div>
-            {index === 1  }
-            <h1 className='uppercase text-[7.5vw] font-["Familjen_Grotesk"] px-20 leading-[6vw] tracking-tighter font-medium'>
-              {text}
+        {["We create", "Eye  Opening", "Presentations"].map((text, index) => (
+          <div key={index} className="masker flex">
+            <div className='w-fit flex items-center px-20'> 
+            {index === 1 && <div className="image w-[6.5vw] h-[5vw] bg-red-500 mt-[1vw] ml-[1vw] rounded-lg"> </div>}
+            <h1 className={`uppercase text-[7.5vw] font-["Familjen_Grotesk"] leading-[5vw] tracking-tighter font-medium `}>
+              {text}  
             </h1>
+            </div>
+            
           </div>
         ))}
         <div className='line border-t-[1px]  border-zinc-700 mt-24 flex justify-between items-center font-["Neue_Montreal"] capitalize py-6 px-20 text-regular'>
