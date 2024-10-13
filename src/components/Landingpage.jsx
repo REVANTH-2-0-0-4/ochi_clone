@@ -6,7 +6,7 @@ function Landingpage() {
     <div className='w-full h-screen bg-zinc-900 overflow-hidden '>
       <div className='textstructure mt-44 text-white'>
         {["We create", "Eye-Opening", "Presentations"].map((text, index) => (
-          <div key={index} className="masker flex ">
+          <div key={index} className="masker flex items-center">
             <div className='w-fit flex items-center px-20'> 
             {index === 1 && <div className="image w-[7vw] h-[5vw] bg-green-500 mt-[1vw] ml-[0.5vw] rounded-lg"> </div>}
             <h1 className={`uppercase text-[7.5vw] font-["Familjen_Grotesk"] leading-[6vw] tracking-tighter font-medium `}>
