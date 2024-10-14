@@ -40,7 +40,10 @@ function About() {
           </div>
         </div>
       </div>
+    <div className=" border-t-[0.1vw] border-[#B3CC5F] w-full   bg-[#CDEA68]  text-black  font-['Neue_Montreal']"></div>
+
     </div>
+    
   );
 }
 
