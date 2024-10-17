@@ -40,7 +40,7 @@ function About() {
           </div>
         </div>
       </div>
-    <div className=" border-t-[0.1vw] border-[#B3CC5F] w-full  flex  bg-[#CDEA68]  text-black  font-['Neue_Montreal'] px-[2vw] py-[1.5vw]">
+    <div className=" border-t-[0.1vw]  border-[#B3CC5F] w-full  flex  bg-[#CDEA68]  text-black  font-['Neue_Montreal'] px-[2vw] py-[1.5vw]">
       <div className="w-1/2 px-[3vw]  ">
         <h1 className="text-[4vw] font-['Neue_Montreal']"> Our approach:</h1>
         <button className="rounded-full mt-[1vw] font-['Neue_Montreal'] bg-black text-white  flex gap-[1vw] items-center p-[1vw]">READ MORE  <span className="w-2 h-2 rounded-full bg-white"></span></button>
